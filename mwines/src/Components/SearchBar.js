@@ -5,7 +5,7 @@ import data from '../data.json';
 
 const SearchBar = ({history}) => {
     const [searchTerm, setSearchTerm] = useState('');
-    const [searchResults, setSearchResults] = React.useState([]);
+    const [searchResults, setSearchResults] = useState([]);
 
   
   useEffect(() => {

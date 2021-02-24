@@ -17,7 +17,7 @@ const Subtotal = () => {
         <ListGroup>
             <ListGroup.Item>
             <Col>
-            <h2>QTT: {subtotalQtt(basket)}</h2>
+            <h2>QTY: {subtotalQtt(basket)}</h2>
             <h2>TOTAL: ${subtotalPrice(basket)}</h2>
             </Col>
             </ListGroup.Item>

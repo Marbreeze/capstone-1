@@ -1,9 +1,11 @@
 import React from 'react';
 import {LinkContainer} from 'react-router-bootstrap';
-import {NavLink,Navbar, Nav, Container } from 'react-bootstrap';
+import {NavLink,Navbar, Nav, Container, } from 'react-bootstrap';
 import {useCart} from './CartGlobalState';
 import SearchBar from './SearchBar';
-import {Route} from 'react-router-dom'
+import {Route} from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
     const [{basket}] = useCart();
@@ -23,7 +25,7 @@ const Header = () => {
                         <NavLink id = "nav-li">Wines</NavLink>
                     </LinkContainer>
                     <LinkContainer exact to = "/cart">
-                        <NavLink>Cart{basket.length}</NavLink>
+                        <NavLink><FontAwesomeIcon icon ={faShoppingCart}/>{basket.length}</NavLink>
                     </LinkContainer>
                 </Nav>
                 </Navbar.Collapse> 

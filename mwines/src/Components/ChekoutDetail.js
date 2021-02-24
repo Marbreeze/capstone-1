@@ -4,7 +4,6 @@ import {useCart} from './CartGlobalState';
 
 const ChekoutDetail = ({cartItem}) => {
         const[{basket}, dispatch]= useCart()
-        const[times, setTimes]= useState(0);
         const [quantityadd, setQuantityadd] = useState(cartItem.numItems)
    
         useEffect(() => {
@@ -17,7 +16,6 @@ const ChekoutDetail = ({cartItem}) => {
     const setQuantity = (e) => {
         const val = (e.target.value)
         setQuantityadd(val)
-        console.log("<<<<<< before state>>>>>>>>", quantityadd)
         dispatch({
             type: "QUANTITY_CHANGE",
             payload:{
@@ -55,8 +53,8 @@ return (
                         <Col>
                             {cartItem.item.quantity > 0 && 
                             (<Row>
-                                <Col md={8} style={{textAlign:"right"}}><p>Qty</p></Col>
-                                <Col md={4} sm ={4} lg ={4} xs ={2}>
+                                <Col style={{textAlign:"right"}}><p>Qty</p></Col>
+                                <Col md={6} lg ={6} >
                                     <Form.Control  
                                     as ='select'
                                     value = {quantityadd}
@@ -76,7 +74,7 @@ return (
                 </Col>
             </Row>
         </Card>
-        </div>
+    </div>
     )
 }
 

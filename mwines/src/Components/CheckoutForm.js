@@ -1,5 +1,5 @@
 import {useStripe, useElements, CardElement} from '@stripe/react-stripe-js';
-import {useCart} from '../Components/CartGlobalState';
+import {useCart} from './CartGlobalState';
 import {useState} from 'react';
 import {Form, Card,Button, Row, Col} from 'react-bootstrap';
 import PhoneInput from 'react-phone-number-input'
@@ -10,7 +10,6 @@ const MyCheckoutForm = ({history}) => {
   const [name, setName] = useState('');
   const [address, setAddress] = useState('');
   const [city, setCity] = useState('');
-  const [boolSubmit, setBoolSubmit] = useState(false);
   const [postalCode, setPostalCode] = useState('');
   const [phoneNumber, setPhoneNumber] = useState();
   const [email, setEmail] = useState('');
@@ -19,7 +18,6 @@ const MyCheckoutForm = ({history}) => {
 
   const updateStock = () => {
     basket.map((item)=>item.item.quantity -= item.numItems);
-    setBoolSubmit(true)
   }
 
   const handleSubmit = async (event) => {
@@ -57,10 +55,8 @@ const MyCheckoutForm = ({history}) => {
 
 const validateEmail=(email)=>{
   if(email) {
-    console.log(email, "email")
      const regex = new RegExp(email);
      const emailValid = regex.test(email);
-     console.log(emailValid, "validation")
       if(!email || (emailValid.test === false)){
         setEmail("Invalid email")
         return false

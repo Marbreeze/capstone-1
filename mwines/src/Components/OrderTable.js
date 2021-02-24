@@ -1,10 +1,10 @@
 import React from 'react';
 import {Row, Col, ListGroup, ListGroupItem} from 'react-bootstrap';
-import {useCart} from '../Components/CartGlobalState';
-import PlaceOrderItems from '../Components/PlaceOrderItems';
+import {useCart} from './CartGlobalState';
+import PlaceOrderItems from './PlacedToOrder';
 
 
-const OrderPlace = () => {
+const OrderTable = () => {
     const[{basket}, dispatch]= useCart();
     const savedInStorage = (localStorage.length > 0 ? (JSON.parse(localStorage.getItem('cartItems'))) : []);
 
@@ -13,13 +13,11 @@ const OrderPlace = () => {
     }
 
     const totalQuantity = addDecimals (Number(savedInStorage.reduce((acc, item) =>acc + item.numItems,0)));
-    const itemsPrice = addDecimals(Number(savedInStorage.reduce((acc, item) => acc + item.item.price * item.numItems,0).toFixed(2)))
+    const itemsPrice = addDecimals(Number(savedInStorage.reduce((acc, item) => acc + item.item.price * item.numItems,0).toFixed(2)));
     const totalTax = addDecimals (Number((0.15 * itemsPrice).toFixed(2)));
-    const totalShipmentAmount = Number(itemsPrice < 100 ? 10 : 0);
+    const totalShipmentAmount = Number(itemsPrice  < 100 ? 10 : 0);
     const totalPriceAmmount = (Number(totalQuantity) + Number(itemsPrice) + Number(totalTax) + totalShipmentAmount).toFixed(2);
 
-    console.log("[savedInStorage]: ", savedInStorage, "totalPrice", itemsPrice );
-    
     return (
         <>
            <Row>
@@ -57,4 +55,4 @@ const OrderPlace = () => {
     )
 }
 
-export default OrderPlace
+export default OrderTable;
