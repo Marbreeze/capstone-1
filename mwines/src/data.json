@@ -1,0 +1,180 @@
+{
+    "data":[
+    {
+    "id":1,
+    "name":"Pinot Noir",
+    "manufacturer" : "Purcari",
+    "sn":"44551",
+    "year":2016,
+    "price":22.22,
+    "category":"Dry Red",
+    "description":"The purplish red color is accompanied by a variety bouquet with complex aromas of strawberries, raspberries and violets. Velvety taste, full, persistent, passing in an aftertaste with fine nuances of maturation. Made from grapes harvested and selected by hand, and produced using traditional methods. Aged for 6 months in French oak barrique.",
+    "quantity":11,
+    "apperative":"Gruyère de Comté cheese, venison, mushrooms, and asparagus.",
+    "alcohol":13.5,
+    "vol" : 750,
+    "image":"/assets/pinot-noir.png"
+    },
+
+    {
+    "id":2,
+    "name":"Chardonnay National",
+    "manufacturer":"Cricova",
+    "sn":"44552",
+    "year":2006,
+    "price":28.99,
+    "category":"White Dry",
+    "description":"The „Chardonnay” from the ‚National’ product range is an elegant wine with a distinct floral flavor and a fresh taste. The wine is soft, savory, tender, whereas mineral acidity provides the wine with a good structure and a particular elegance.",
+    "quantity":15,
+    "apperative":"Turkey breast, whitefish, snails",
+    "alcohol":12,
+    "vol" : 750,
+    "image":"/assets/chardonnay-national.png"
+    },
+
+    {
+    "id":3,
+    "name":"Ice Cabernet Sauvingnon",
+    "manufacturer" : "Minis Terios",
+    "sn":"44552",
+    "year":2018,
+    "price":27.99,
+    "category":"Ice Sweet Rose",
+    "description":"Ice Wine with a pink color with a strawberry tint, with a seductive aroma of red fruits, lime green, with a sweet aftertaste with fruity notes, which is imprinted on the taste buds for a long time.",
+    "quantity":12,
+    "apperative":"Pairs with apple pie or fritters, oysters, paté, peaches, pears, strawberries, French toast, flan, Creme Brulee, cheese cake.",
+    "alcohol":10.9,
+    "vol" : 750,
+    "image":"/assets/minis-icewine.png"
+
+    },
+
+    {
+    "id":4,
+    "name":"Pinot Grigio",
+    "manufacturer":"Purcari",
+    "sn":"44553",
+    "year":2017,
+    "price":32.99,
+    "category":"White OffDry",
+    "description":"The light golden straw color holds a fresh fragrance shaped by light notes of green apple and pear. The fruity taste is refreshing, pleasant, well balanced with acidity, showing harmonious shades and a lasting aftertaste. It combines well with dishes of fish, shellfish, chicken, hard cheese, and grilled vegetables.",
+    "quantity":3,
+    "apperative":"The fruity and tart wine makes a fantastic combination with fresh vegetables, raw fish and light entreé, sushi and seafood.",
+    "alcohol":14.5,
+    "vol" : 750,
+    "image":"/assets/pinot-grigio.webp"
+    },
+
+    {
+    "id":5,
+    "name":"Cabernet-Sauvignon",
+    "manufacturer":"Purcari",
+    "sn":"44554",
+    "year":2014,
+    "price":45.99,
+    "category":"Dry Red Wine",
+    "description":"Obtained from Cabernet-Sauvignon – king of red wine. Matured in barrels of natural wood, the wine is characterized by the taste very full and full-bodied, reflecting the strong expression of the terroir from which it comes.",
+    "quantity":2,
+    "apperative":"Pairs with apple pie or fritters, oysters, paté, peaches, pears, strawberries, French toast, flan, Creme Brulee, cheese cake.",
+    "alcohol":12.5,
+    "vol" : 750,
+    "image": "/assets/cabernet-vintage.png"
+    },
+
+    {
+    "id":6,
+    "name":"Chardonnay",
+    "manufacturer":"Purcari",
+    "sn":"44555",
+    "year":2017,
+    "price":20.99,
+    "category":"White Dry",
+    "apperative":"Pairs with apple pie or fritters, oysters, paté, peaches, pears, strawberries, French toast, flan, Creme Brulee, cheese cake.",
+    "description":"Manufactured by the traditional method from manually harvested grapes cultivated in the company’s own vineyards in the Codru region. It is an elegant, suave and tender wine, distinguished by its freshness and well-defined acidity.",
+    "quantity":7,
+    "alcohol":13.5,
+    "vol" : 750,
+    "image":"/assets/savingnon-blanc.png"
+    },
+
+    {
+    "id":7,
+    "name":"Chardonnay paper",
+    "manufacturer":"Purcari",
+    "sn":"44556",
+    "year":2017,
+    "price":22.99,
+    "category":"White Dry",
+    "apperative":"Pairs with apple pie or fritters, oysters, paté, peaches, pears, strawberries, French toast, flan, Creme Brulee, cheese cake.",
+    "description":"This is a fresh, smooth wine. Intense and fresh aroma of citrus and blackcurrant leaves. It has a fruity taste with citrus fruit, apple, and grassy notes. It’s a delicious wine for the terrace, to enjoy in the sun. It pairs well with salads, seafood, fish, and vegetables",
+    "quantity":22,
+    "alcohol":12.5,
+    "vol" : 750,
+    "image":"/assets/chardonnay-paper.png"
+    },
+
+    {
+    "id":8,
+    "name":"Negru de Purcari",
+    "manufacturer":"Purcari",
+    "sn":"44557",
+    "year":2017,
+    "price":27.99,
+    "category":"Red Dry",
+    "apperative":"Pairs with apple pie or fritters, oysters, paté, peaches, pears, strawberries, French toast, flan, Creme Brulee, cheese cake.",
+    "description":"Negru de Purcari is the king of red wines - noble, with a rich structure and a perfect bouquet. 70% Cabernet-Sauvignon, 25% Saperavi, 5% Rara Neagră,The deep, velvet taste reminds of the same fruit flavor with ample hints of delicate tannin and brings a long sensual aftertaste. Made from grapes harvested and selected by hand, produced using traditional methods. Aged for 18 months in French oak barrique.",
+    "quantity":11,
+    "alcohol":13.5,
+    "vol" : 750,
+    "image":"/assets/purcari-negru-de-purcari.jpg"
+    },
+
+    {
+    "id":9,
+    "name":"VINOHORA FETEASCĂ NEAGRĂ & MONTEPULCIANO",
+    "manufacturer":"Purcari",
+    "sn":"44558",
+    "year":2017,
+    "price":31.99,
+    "apperative":"Pairs with apple pie or fritters, oysters, paté, peaches, pears, strawberries, French toast, flan, Creme Brulee, cheese cake.",
+    "category":"Rose Dry",
+    "description":"51% Feteasca Neagră, 49% Montepulciano.The rosé blend is a Moldovan-Italian Hora, which combines the harmony of Feteasca Neagră with the playful heart of the Italian Montepulciano.",
+    "quantity":1,
+    "alcohol":13.5,
+    "vol" : 750,
+    "image":"/assets/vinohora.png"
+    },
+
+    {
+    "id":10,
+    "name":"Lupi Magnum Cabernet Sauvignon, Merlot and Saperavi",
+    "manufacturer":"Purcari",
+    "sn":"44559",
+    "year":2013,
+    "price":27.99,
+    "apperative":"Pairs with apple pie or fritters, oysters, paté, peaches, pears, strawberries, French toast, flan, Creme Brulee, cheese cake.",
+    "category":"Rose Dry",
+    "description":"Cabernet Sauvignon, Merlot and Saperavi the bouquet is intense, rich, with aromas of blackberries and fruits, to which are added shades of chocolate, coffee beans, licorice and leather, balanced taste, structured, with strong tannins, intense and complex taste and a refined, long aftertaste of plum and blackberries",
+    "quantity":3,
+    "alcohol":14.5,
+    "vol" : 750,
+    "image":"/assets/lupi.png"
+    },
+
+    {
+    "id":11,
+    "name":"Chardonnay, Fetească Regală Chardonnay, Fetească Regală .",
+    "manufacturer":"Purcari",
+    "sn":"44559",
+    "year":2013,
+    "price":24.99,
+    "category":"Semi-Sweet White",
+    "apperative":"Pairs with apple pie or fritters, oysters, paté, peaches, pears, strawberries, French toast, flan, Creme Brulee, cheese cake.",
+    "description":"Individo Feteasca Neagra is a special wine with a soft and, at the same time, rich texture. The wine has a complex character, which opens an incredibly bright bouquet with notes of wild berries. Its slightly spicy flavor and velvety finish will give your memories a noble character.",
+    "quantity":12,
+    "alcohol":12.5,
+    "vol" : 750,
+    "image":"/assets/invido.png"
+    }
+    ]
+}
